@@ -1,4 +1,4 @@
-# 百度地图 Android SDK V7.6.1 在 React Native 中无法拖动问题复现
+# 百度地图 Android SDK V7.6.4 在 React Native 中无法拖动问题复现
 
 ## node -v
 `Now using node v22.0.0 (npm v10.5.1)`
