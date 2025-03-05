@@ -12,7 +12,6 @@ const LINKING_ERROR =
   '- You are not using Expo Go\n';
 
 type BaidumapMarkerTestProps = {
-  color: string;
   style: ViewStyle;
 };
 

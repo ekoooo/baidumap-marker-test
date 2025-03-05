@@ -80,9 +80,12 @@ repositories {
 }
 
 def kotlin_version = getExtOrDefault("kotlinVersion")
+def BaiduMapSDKBaseVersion = "7.6.4"
 
 dependencies {
   implementation "com.facebook.react:react-android"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+  implementation "com.baidu.lbsyun:BaiduMapSDK_Map:$BaiduMapSDKBaseVersion"
 }
 

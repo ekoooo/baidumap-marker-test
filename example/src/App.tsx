@@ -4,7 +4,7 @@ import { BaidumapMarkerTestView } from 'react-native-baidumap-marker-test';
 export default function App() {
   return (
     <View style={styles.container}>
-      <BaidumapMarkerTestView color="#32a852" style={styles.box} />
+      <BaidumapMarkerTestView style={styles.box} />
     </View>
   );
 }
@@ -16,8 +16,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   box: {
-    width: 60,
-    height: 60,
+    width: '90%',
+    height: '90%',
     marginVertical: 20,
+    backgroundColor: 'pink'
   },
 });
