@@ -28,6 +28,7 @@ class BaidumapMarkerTestViewManager : SimpleViewManager<TextureMapView>() {
     val option: OverlayOptions = MarkerOptions()
       .position(LatLng(39.963175, 116.400244))
       .icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_gcoding))
+      .poiCollided(true)
       .clickable(true)
       .draggable(true)
 
